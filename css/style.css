@@ -1,0 +1,129 @@
+/* Base Rules*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size:  20px;
+  line-height: 30px;
+  color: #6c757d
+}
+
+/* Navigation */
+nav.custom-nav {
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 20px 0;
+}
+
+nav .navbar-brand {
+  font-size: 30px;
+  color: #fff;
+}
+
+nav .navbar-nav li a {
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+}
+
+nav .navbar-nav li {
+  margin-left: 15px;
+}
+
+.navbar .humburger {
+  color: #fff
+}
+
+/* Main section */
+.about {
+  margin-top: 100px;
+}
+
+.about-img {
+  /* margin-left: 50px; */
+  margin-top: 50px;
+}
+
+.about-img img {
+  width: 450px;
+}
+
+/* Start Popup */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(187, 187, 187, 0.8);
+  display: none;
+}
+
+.popup .inner {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 550px;
+  height: 400px;
+  left: 31%;
+  position: fixed;
+  top: 50%;
+  margin-top: -200px;
+}
+
+.popup .inner .close {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*  End Popup */
+
+/* Start footer */
+.footer {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+.style-color {
+  color: #d2333c !important;
+}
+
+.style-color-twit {
+  color:  #00acee !important
+}
+
+.style-color-fb {
+  color: #3b5998 !important;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+/* End Footer */
+
+/* Media for small devices */
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
